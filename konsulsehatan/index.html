@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Putro Setyoko">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/06e0fcae35.js" crossorigin="anonymous"></script>
+  <title>KonsulSehatan | Solusi Konsultasi Kesehatan Anda</title>
+</head>
+
+<!--START NAVBAR SECTION-->
+<div class="topnav" id="myTopnav">
+  <div class="logo">
+    <a href="#" style="text-decoration: none;">
+      <span class="logo-text">KonsulSehatan</span>
+    </a>
+  </div>
+  <a href="index.html" class="beranda">Home</a>
+  
+  <button class="btn-darkmode btn-primary" onclick="switchMode()"><i id="btn-mode" class="fa fa-moon"></i></button>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!--END NAVBAR SECTION-->
+
+<!-- START ALL CONTENT SECTION -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <span class="h4 text-primary">Solusi Kesehatan Terlengkap</span>
+      <div class="card card-light mt-1">
+        <div class="card-body">
+          <div class="row">
+            <!-- <div class="col-11">
+                <span class="h4 text-primary">Solusi Kesehatan Terlengkap</span>
+              </div> -->
+            <div class="col-11">
+              <span class="h5">Chat dokter, kunjungi rumah sakit, beli obat, cek lab dan update informasi
+                seputar kesehatan, semua bisa di KonsulSehatan!</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-2">
+              <center><img src="assets/img/chat-dengan-dokter.jpg" class="img-solusi" width="40%"></center>
+              <span class="h6">Chat dengan Dokter</span>
+            </div>
+            <div class="col-2">
+              <center><img src="assets/img/toko-kesehatan.jpg" class="img-solusi" width="40%"></center>
+              <span class="h6">Toko Kesehatan</span>
+            </div>
+            <div class="col-2">
+              <center><img src="assets/img/buat-janji-rs.jpg" class="img-solusi" width="40%"></center>
+              <span class="h6">Buat Janji RS</span>
+            </div>
+            <div class="col-2">
+              <center><img src="assets/img/janji-medis.jpg" class="img-solusi" width="40%"></center>
+              <span class="h6">Janji Medis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <!-- NEWS CONTENT -->
+    <div class="col-8">
+      <div class="row">
+        <div class="card card-light card-berita">
+          <div class="col-4">
+            <img src="assets/img/hidup-sehat.jpg" class="img-responsive mt-2 img-home-news" width="100%">
+          </div>
+          <div class="col-8 mt-1">
+            <div class="col-3 author">
+              <span class="subtitle text-muted"><i class="fa fa-user"></i> Putro Setyoko</span>
+            </div>
+            <div class="col-3">
+              <span class="subtitle text-muted"><i class="fa fa-calendar"></i> 10 April 2022, 20:28</span>
+            </div>
+            <div class="col-3-berita">
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Hidup Sehat</span>
+            </div>
+            <span class="h4"><b>Pentingnya Multivitamin dengan Ekstrak Ginseng untuk Imunitas Tubuh</b></span>
+            <p class="isi-berita text-muted">
+              KonsulSehatan, Samarinda – Ada banyak cara yang bisa dilakukan untuk meningkatkan imunitas tubuh di
+              tengah
+              pandemi, misalnya mengonsumsi makanan sehat dan berolahraga. Ketika imun tubuh optimal, hal ini
+              menjadi salah satu pencegahan penyakit yang bisa menyebabkan gangguan kesehatan, termasuk
+              COVID-19. <a href="berita/berita-1/">Lihat Selengkapnya...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="card card-light card-berita">
+          <div class="col-4">
+            <img src="assets/img/makanan-sehat.jpg" class="img-responsive mt-2 img-home-news" width="100%">
+          </div>
+          <div class="col-8 mt-1">
+            <div class="col-3 author">
+              <span class="subtitle text-muted"><i class="fa fa-user"></i> Putro Setyoko</span>
+            </div>
+            <div class="col-3">
+              <span class="subtitle text-muted"><i class="fa fa-calendar"></i> 12 April 2022, 10:00</span>
+            </div>
+            <div class="col-3-berita">
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Makanan Sehat</span>
+            </div>
+            <span class="h4"><b>5 Makanan untuk Menunjang Sistem Kekebalan Tubuh Saat Puasa</b></span>
+            <p class="isi-berita text-muted">
+              KonsulSehatan, Samarinda – Kamu harus menghemat energi agar tubuh tidak mudah lelah saat menjalani
+              ibadah puasa. Perut yang tidak terisi selama lebih dari 12 jam tentu membuat tubuh rentan terserang
+              berbagai macam penyakit, terutama yang berhubungan dengan pencernaan. <a href="/berita/berita-2/">Lihat
+                Selengkapnya...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="card card-light card-berita">
+          <div class="col-4">
+            <img src="assets/img/tips-melakukan-olahraga.jpg" class="img-responsive mt-2 img-home-news" width="100%">
+          </div>
+          <div class="col-8 mt-1">
+            <div class="col-3 author">
+              <span class="subtitle text-muted"><i class="fa fa-user"></i> Putro Setyoko</span>
+            </div>
+            <div class="col-3">
+              <span class="subtitle text-muted"><i class="fa fa-calendar"></i> 12 April 2022, 16:40</span>
+            </div>
+            <div class="col-3-berita">
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Olahraga</span>
+            </div>
+            <span class="h4"><b>Berbagai Tips Melakukan Olahraga di Bulan Ramadan</b></span>
+            <p class="isi-berita text-muted">
+              KonsulSehatan, Samarinda – Saat memasuki bulan puasa bukan berarti kamu perlu mengubah kebiasaan
+              olahraga yang rutin kamu lakukan. Jika kamu telah terbiasa melakukan olahraga tentunya akan sulit
+              meninggalkan kebiasaan ini. Apalagi olahraga di bulan Ramadan memiliki banyak manfaat bagi kesehatan,
+              secara fisik maupun mental. <a href="berita/berita-3/">Lihat
+                Selengkapnya...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="card card-light card-berita">
+          <div class="col-4">
+            <img src="assets/img/kanker-tulang.jpg" class="img-responsive mt-2 img-home-news" width="100%">
+          </div>
+          <div class="col-8 mt-1">
+            <div class="col-3 author">
+              <span class="subtitle text-muted"><i class="fa fa-user"></i> Putro Setyoko</span>
+            </div>
+            <div class="col-3">
+              <span class="subtitle text-muted"><i class="fa fa-calendar"></i> 13 April 2022, 13:17</span>
+            </div>
+            <div class="col-3-berita">
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Kanker Tulang</span>
+            </div>
+            <span class="h4"><b>Waspada, Ketahui Gejala Kanker Tulang pada Anak</b></span>
+            <p class="isi-berita text-muted">
+              KonsulSehatan, Samarinda – Kanker tulang atau osteosarkoma adalah salah satu jenis kanker yang paling
+              umum menyerang anak-anak. Osteosarkoma menyumbang sekitar 3 persen kanker yang terjadi pada anak-anak.
+              Kemunculan kanker ini umumnya terjadi selama masa percepatan pertumbuhan anak dan paling rentan
+              menyerang anak berusia 10–20 tahun. <a href="berita/berita-4/">Lihat
+                Selengkapnya...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="card card-light card-berita">
+          <div class="col-4">
+            <img src="assets/img/infeksi-ginjal.jpg" class="img-responsive mt-2 img-home-news" width="100%">
+          </div>
+          <div class="col-8 mt-1">
+            <div class="col-3 author">
+              <span class="subtitle text-muted"><i class="fa fa-user"></i> Putro Setyoko</span>
+            </div>
+            <div class="col-3">
+              <span class="subtitle text-muted"><i class="fa fa-calendar"></i> 14 April 2022, 21:00</span>
+            </div>
+            <div class="col-3-berita">
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Fungsi Ginjal</span>
+            </div>
+            <span class="h4"><b>3 Pola Hidup Sehat Bagi Pengidap Infeksi Ginjal</b></span>
+            <p class="isi-berita text-muted">
+              KonsulSehatan, Samarinda – Ginjal adalah salah satu organ tubuh yang perlu dijaga kesehatannya. Salah
+              satu gangguan yang dapat terjadi adalah infeksi. Saat seseorang mengalami penyakit ini, penanganan
+              segera harus dilakukan agar sesuatu yang berbahaya dapat dicegah. Selain pengobatan segera, pengidapnya
+              juga perlu menerapkan pola hidup sehat agar infeksi ginjal lebih cepat sembuh. Nah, berikut pola hidup
+              sehat yang perlu dilakukan!. <a href="berita/berita-5/">Lihat
+                Selengkapnya...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card card-light">
+        <div class="card-body">
+          <input type="text" class="form-control" name="search"
+            placeholder="Cari artikel berdasarkan judul, kategori, topik">
+        </div>
+      </div>
+
+      <div class="card mt-2">
+        <div class="card-heading">
+          <span class="font-weight-bold">Artikel Populer</span>
+        </div>
+        <ul class="listgroup-container">
+          <li class="listgroup-items">
+            <a href="#">
+              <span class="title-head text-default">Berada di Alam Dua Jam Setara dengan 120 Menit Di Alam</span>
+              <br>
+              <span class="subtitle text-muted"><i class="fa fa-clock"></i> 2 menit</span>
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Hidup Sehat</span>
+            </a>
+          </li>
+          <li class="listgroup-items">
+            <a href="#">
+              <span class="title-head text-default">Menerapkan Gaya Hidup Sehat untuk Jantung Sehat</span>
+              <br>
+              <span class="subtitle text-muted"><i class="fa fa-clock"></i> 1 menit</span>
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Hidup Sehat</span>
+            </a>
+          </li>
+          <li class="listgroup-items">
+            <a href="#">
+              <span class="title-head text-default">5 Cara Membiasakan Gaya Hidup Sehat pada Anak</span>
+              <br>
+              <span class="subtitle text-muted"><i class="fa fa-clock"></i> 3 menit</span>
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Pertumbuhan Anak</span>
+            </a>
+          </li>
+          <li class="listgroup-items">
+            <a href="#">
+              <span class="title-head text-default">Pola Hidup Sehat untuk Pengidap Kanker Darah</span>
+              <br>
+              <span class="subtitle text-muted"><i class="fa fa-clock"></i> 1 menit</span>
+              <span class="subtitle text-muted"><i class="fa fa-tag"></i> Kanker Darah</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--END ALL CONTENT SECTION-->
+
+<!-- PAGINATION SECTION -->
+<div class="center">
+  <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">&raquo;</a>
+  </div>
+</div>
+<!-- END PAGINATION SECTION-->
+
+<!--START FOOTER SECTION-->
+<div class="footer">
+  <p class="ft">&#169;<span class="text-primary">KonsulSehatan</span>, <span id="year"></span>. Made with <i
+      class="fa fa-heart" style="color: crimson;"></i> by Putro Setyoko</p>
+</div>
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+<!--END FOOTER SECTION-->
+</body>
+
+</html>
